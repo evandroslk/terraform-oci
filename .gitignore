@@ -1,0 +1,25 @@
+# ===============================
+# Terraform
+# ===============================
+
+# Diretório de dependências/plugins
+.terraform/
+
+# Arquivos de state
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Arquivos de override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plano gerado
+*.tfplan
+*.plan
+

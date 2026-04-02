@@ -1,0 +1,5 @@
+tenancy_ocid = "ocid1.tenancy.oc1..aaaaaaaaazd5atj2elrumb5uxj4xdambqp4bcoz6mf5lb72damxlicfh2q2a"
+compartment_id = "ocid1.compartment.oc1..aaaaaaaa6ulimh3dblhl7r377qmrot4negwesjhw2dk5df77fsoe4dmheaia"
+app_name = "test-static-website"
+dns_label_vcn = "staticwebsite"
+region = "sa-saopaulo-1"

@@ -1,0 +1,1 @@
+oci os object bulk-upload --bucket-name test-static-website-bucket --src-dir build --content-type auto
