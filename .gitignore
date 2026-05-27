@@ -23,3 +23,5 @@ override.tf.json
 *.tfplan
 *.plan
 
+# Arquivos de backup
+*.bkp

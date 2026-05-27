@@ -74,6 +74,17 @@ resource "oci_core_security_list" "public_sl" {
       stateless = false
 
       tcp_options {
+        min = 3000
+        max = 3000
+      }
+    }
+
+    ingress_security_rules {
+      protocol = "6"
+      source = "${chomp(data.http.my_ip.response_body)}/32"
+      stateless = false
+
+      tcp_options {
         min = 8080
         max = 8080
       }
